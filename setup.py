@@ -5,12 +5,12 @@ from aiogram import Bot, Dispatcher, F
 import logging
 
 
-BOT_TOKEN = '6180592335:AAFLKZ60x7efxzPgmo70DIqkB7HrifkXgrs' 
-CHANNEL_ID =  -1001485074571
-ADMIN_ID = 505658283
+BOT_TOKEN = '6480025305:AAHn5Nj56dVeJTVRIq6Uqi9-1S5pUyfGRPc' 
+CHANNEL_ID =  -1001871817760
+ADMIN_ID = 430692329
 async def approve_request (chat_join: ChatJoinRequest, bot: Bot):
-   msg= f"Ваша заявка одобрена!\n\nВступить в канал: https://t.me/+HCYRZVluqZo2OThi"
-   button = InlineKeyboardButton(text='ВСТУПИТЬ', url='https://t.me/+HCYRZVluqZo2OThi', disable_web_page_preview=True)   
+   msg= f"Ваша заявка одобрена!\n\nВступить в канал: https://t.me/+lsAwlAFOM6ViY2Y6"
+   button = InlineKeyboardButton(text='ВСТУПИТЬ', url='https://t.me/+lsAwlAFOM6ViY2Y6', disable_web_page_preview=True)   
    markup = InlineKeyboardMarkup(inline_keyboard=[[button]])
 
 
