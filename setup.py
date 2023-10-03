@@ -6,7 +6,7 @@ import logging
 
 
 BOT_TOKEN = '6480025305:AAHn5Nj56dVeJTVRIq6Uqi9-1S5pUyfGRPc' 
-CHANNEL_ID =  -1001871817760
+CHANNEL_ID = -1001871817760
 ADMIN_ID = 430692329
 async def approve_request (chat_join: ChatJoinRequest, bot: Bot):
    msg= f"Ваша заявка одобрена!\n\nВступить в канал: https://t.me/+lsAwlAFOM6ViY2Y6"
